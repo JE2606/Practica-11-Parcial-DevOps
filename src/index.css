@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Regular";
+    src: local("RedHatText-Regular"),
+        url("./assets/fonts/RedHatText-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "SemiBold";
+    src: local("RedHatText-SemiBold"),
+        url("./assets/fonts/RedHatText-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Bold";
+    src: local("RedHatText-Bold"),
+        url("./assets/fonts/RedHatText-Bold.ttf") format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100dvw;
+    overflow-x: hidden;
+    height: 100%;
+    user-select: none;
+    background-color: hsl(20, 50%, 98%);
+}
